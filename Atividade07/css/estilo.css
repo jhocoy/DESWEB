@@ -1,0 +1,100 @@
+/* limpando formatação padrão */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+/* layout */
+header{
+    background-color: darkred;
+    padding: 15px;
+    text-align: center;
+}
+header menu{
+    padding: 10px;
+    
+}
+h1{
+    color: black;
+    font-size: 2.6em;
+}
+.blog{
+    color: #fff;
+}
+/* formatação do menu */
+a{
+    text-decoration: none;
+
+}
+a:link, a:visited {
+    color: darkorchid;
+}
+a:hover{
+    text-decoration: underline;
+}
+header a:link, #area-cabecalho  a:visited{
+    color: #fff;
+    padding: 8px 10px;
+}
+header a:hover{
+    color: #191958;
+    background: #fff;
+    text-decoration: none;
+}
+article{
+    margin: 40px auto;
+    /*background: white;*/
+    width: 920px;
+    padding: 10px;
+    
+}
+section{
+    width: 660px;
+    float: left;
+    background:#fff;
+    margin-bottom: 10px;
+} 
+section{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+aside{
+    width: 240px;
+    float: right;
+   /*background: seagreen;*/
+}
+aside{
+    background: white;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+aside{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #f4f4f4;
+}
+footer{
+    background:silver;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+h2{
+    color: darkred;
+}
+h3{
+    color: darkred;
+    background: silver;
+    padding: 5px;
+}
+time{
+    font-size: 0.7em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    display: block;
+}
